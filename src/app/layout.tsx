@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${roboto.variable} ${baloo.variable}`}>
-      <body className="bg-gray-100 antialiased text-base-text font-text">
+      <body className="bg-base-label antialiased text-base-text font-text">
         <main className="max-w-[1120px] mx-auto py-8 px-5 lg:px-0">
           {children}
         </main>

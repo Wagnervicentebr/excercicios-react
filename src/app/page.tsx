@@ -1,7 +1,11 @@
-import Image from "next/image";
+import { ContactForm } from "./components/ContactForm";
 
 export default function Home() {
   return (
-    <h1>Hello World</h1>
+    <>
+    <div className="flex justify-center items-center">
+      <ContactForm />
+    </div>
+    </>
   );
 }
