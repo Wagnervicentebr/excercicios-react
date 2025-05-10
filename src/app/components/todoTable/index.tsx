@@ -1,13 +1,13 @@
-import { TodoTask } from "../../page";
+import { TodoTask } from "@/app/hooks/useTodos";
 import { TableHead } from "./components/TableHeader";
 import { TableItem } from "./components/TableItem";
 
 interface TodoTableProps {
     tasks: TodoTask[],
-    onCheckedChange: (id: string) => void
+    onToggle: (id: string) => void
 }
 
-export function TodoTable({ tasks, onCheckedChange }: TodoTableProps) {
+export function TodoTable({ tasks, onToggle }: TodoTableProps) {
     return (
         <div className="relative overflow-x-auto" >
             <table className="w-lg text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 border-2 border-purple-200 ">
@@ -17,7 +17,7 @@ export function TodoTable({ tasks, onCheckedChange }: TodoTableProps) {
                         <TableItem 
                             key={item.id} 
                             taskItem={item}
-                            onCheckedChange={onCheckedChange}
+                            onToggle={onToggle}
                         />
                     ))}
                 </tbody>

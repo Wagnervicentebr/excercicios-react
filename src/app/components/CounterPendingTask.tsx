@@ -1,4 +1,4 @@
-import { TodoTask } from "../../page";
+import { TodoTask } from "../todo-list/page";
 
 interface CounterPendingTaskProps {
     tasks: TodoTask[]
