@@ -1,6 +1,8 @@
+'use client'
 import type { Metadata } from "next";
-import { Baloo_2, Geist, Geist_Mono, Roboto } from "next/font/google";
+import { Baloo_2, Roboto } from "next/font/google";
 import "./globals.css";
+import { ShoppingCartProvider } from "../contexts/ShoppingCartContext";
 
 const roboto = Roboto({
   weight: ['400', '700'],
@@ -21,9 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${roboto.variable} ${baloo.variable}`}>
-      <body className="bg-gray-100 antialiased text-base-text font-text">
+      <body className="bg-zinc-800 antialiased text-base-text font-text">
         <main className="max-w-[1120px] mx-auto py-8 px-5 lg:px-0">
-          {children}
+          <ShoppingCartProvider>
+            {children}  
+          </ShoppingCartProvider>
+
         </main>
       </body>
     </html>

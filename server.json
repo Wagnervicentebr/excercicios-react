@@ -1,0 +1,14 @@
+{
+    "products": [
+        { "id" : 1, "description": "AirPods Pro (2° Geração)", "price": 10, "image": "fone"},
+        { "id" : 2, "description": "Cabo Type C", "price": 1979, "image": "cabo"},
+        { "id" : 3, "description": "Carregador Bi-volt Original", "price": 1979, "image": "carregador"},
+        { "id" : 4, "description": "Apple Watch series 10", "price": 1979, "image": "watch"},
+        { "id" : 5, "description": "Iphone 13", "price": 1979, "image": "iphone"},
+        { "id" : 6, "description": "AirPods Pro (2° Geração)", "price": 1979, "image": "fone"},
+        { "id" : 7, "description": "Cabo Type C", "price": 1979, "image": "cabo"},
+        { "id" : 8, "description": "Carregador Bi-volt Original", "price": 1979, "image": "carregador"},
+        { "id" : 9, "description": "Apple Watch series 10", "price": 1979, "image": "watch"},
+        { "id" : 10,"description": "Iphone 13", "price": 1979, "image": "iphone"}
+    ]
+}

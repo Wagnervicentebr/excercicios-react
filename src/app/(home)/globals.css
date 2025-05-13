@@ -25,6 +25,10 @@
   
   --color-white: #FFFFFF;
 
+  --color-zinc-800: #27272a;
+
+  --color-danger: #dc3545;
+
 
   --font-heading: var(--font-baloo);
   --font-text: var(--font-roboto);
