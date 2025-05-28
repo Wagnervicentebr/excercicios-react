@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "name": "admin",
+      "password": "$2a$10$808FaXoaf5pec3ZvLnETHukmjCyOb5cFg/NF1LglDnjkOeshfuIZK",
+      "id": 1
+    }
+  ],
+  "products": [
+    {"id": 123456, "provider": "Amazon", "date": "Fri May 23 2025 07:24:30 GMT-0300", "totalPrice": 1200 },
+    {"id": 532456, "provider": "Shopee", "date": "Fri May 22 2025 07:24:30 GMT-0300", "totalPrice": 600 },
+    {"id": 854466, "provider": "Alien Express", "date": "Fri May 12 2025 07:24:30 GMT-0300", "totalPrice": 4500 },
+    {"id": 456789, "provider": "Casas Bahia", "date": "Fri May 15 2025 07:24:30 GMT-0300", "totalPrice": 480 }
+  ],
+  "orders": [
+    {
+      "id": 123456,
+      "products": [{"id": 1, "name": "Livro Poder da Ação", "value": 600}, {"id": 2, "name": "Livro Autorresponsabilidade", "value": 600}]
+    },
+    {
+      "id": 532456,
+      "products": [{"id": 1, "name": "Aerofolio", "value": 499}, {"id": 2, "name": "Seta conjugada", "value": 500}]
+    },
+    {
+      "id": 854466,
+      "products": [{"id": 1, "name": "Farol Neblina", "value": 300}, {"id": 2, "name": "Farol Alto", "value": 650}]
+    },
+    {
+      "id": 456789,
+      "products": [{"id": 1, "name": "Geladeira", "value": 200}, {"id": 2, "name": "Fogão", "value": 400}]
+    }
+  ]
+}
