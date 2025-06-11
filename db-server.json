@@ -1,0 +1,60 @@
+{
+  "products": [
+    { "id": 1, "name": "Notebook Dell XPS 13", "price": 6899.00, "stock": 15 },
+    { "id": 2, "name": "Monitor UltraWide 34\"", "price": 2499.00, "stock": 8 },
+    { "id": 3, "name": "Teclado Mecânico RGB", "price": 399.90, "stock": 20 },
+    { "id": 4, "name": "Mouse Gamer 16000 DPI", "price": 249.90, "stock": 45 },
+    { "id": 5, "name": "Suporte para Monitor", "price": 99.90, "stock": 30 }
+  ],
+
+  "orders": [
+    {
+      "id": 1,
+      "orderNumber": "PED-2023-001",
+      "createdAt": "2023-08-15T14:30:00",
+      "status": "Concluído",
+      "paymentMethod": "Cartão de Crédito",
+      "products": [
+        { "id": 1, "name": "Notebook Dell XPS 13", "price": 6899.00, "quantity": 1 },
+        { "id": 4, "name": "Mouse Gamer 16000 DPI", "price": 249.90, "quantity": 1 },
+        { "id": 5, "name": "Suporte para Monitor", "price": 99.90, "quantity": 1 }
+      ],
+      "total": 7148.80
+    },
+    {
+      "id": 2,
+      "orderNumber": "PED-2023-002",
+      "createdAt": "2023-08-20T11:15:00",
+      "status": "Concluído",
+      "paymentMethod": "Cartão de Crédito",
+      "products": [
+        { "id": 2, "name": "Monitor UltraWide 34\"", "price": 2499.00, "quantity": 1 }
+      ],
+      "total": 2499.00
+    },
+    {
+      "id": 3,
+      "orderNumber": "PED-2023-003",
+      "createdAt": "2023-08-25T16:15:00",
+      "status": "Concluído",
+      "paymentMethod": "Cartão de Crédito",
+      "products": [
+        { "id": 1, "name": "Notebook Dell XPS 13", "price": 6899.00, "quantity": 1 },
+        { "id": 2, "name": "Monitor UltraWide 34\"", "price": 2499.00, "quantity": 2 },
+        { "id": 4, "name": "Mouse Gamer 16000 DPI", "price": 249.90, "quantity": 1 }
+      ],
+      "total": 12458.70
+    },
+    {
+      "id": 4,
+      "orderNumber": "PED-2023-004",
+      "createdAt": "2023-09-01T09:20:00",
+      "status": "Concluído",
+      "paymentMethod": "Cartão de Crédito",
+      "products": [
+        { "id": 3, "name": "Teclado Mecânico RGB", "price": 399.90, "quantity": 3 }
+      ],
+      "total": 1199.70
+    }
+  ]
+}
